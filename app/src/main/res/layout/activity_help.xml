@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dinus.ec.main.HelpActivity">
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/toolbar_gradient"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_padding"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Map"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_grey"
+                    android:textSize="@dimen/text_medium" />
+
+                <TextView
+                    android:id="@+id/tv_no_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Peta Lokasi acara berlangsung"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_grey"
+                    android:textSize="@dimen/text_medium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_padding"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="My Profile"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_grey"
+                    android:textSize="@dimen/text_medium" />
+
+                <TextView
+                    android:id="@+id/tv_tgl_lahir"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Menu detail profile dari akun yang didaftarkan"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_grey"
+                    android:textSize="@dimen/text_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_padding"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Agenda"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_grey"
+                    android:textSize="@dimen/text_medium" />
+
+                <TextView
+                    android:id="@+id/tv_jabatan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Halaman informasi agenda dan jadwal acara"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_grey"
+                    android:textSize="@dimen/text_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_padding"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Scan Barcode"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_grey"
+                    android:textSize="@dimen/text_medium" />
+
+                <TextView
+                    android:id="@+id/tv_poin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Untuk menscan barcode disetiap zone barcode"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_grey"
+                    android:textSize="@dimen/text_medium" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<WebView-->
+            <!--android:id="@+id/wv_line"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+        <!--</WebView>-->
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/pb_help"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:theme="@style/pbTheme"-->
+            <!--style="@style/pbTheme"/>-->
+
+        <!--<include-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--layout="@layout/error_layout"></include>-->
+
+    </FrameLayout>
+
+</LinearLayout>

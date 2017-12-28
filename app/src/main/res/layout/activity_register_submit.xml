@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_orange_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
+    tools:context="com.dinus.ec.main.RegisterActivity">
+
+    <TextView
+        fontPath="fonts/Pangram-Bold.otf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/medium_padding"
+        android:text="@string/submit_desc"
+        android:textAllCaps="false"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/text_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/default_padding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="@dimen/default_padding">
+
+                    <TextView
+                        android:id="@+id/tv_pagi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/medium_padding"
+                        android:text="@string/pagi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/text_purple_dark"
+                        android:textSize="@dimen/text_default" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_pagi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="@dimen/large_padding">
+
+                    <TextView
+                        android:id="@+id/tv_siang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/medium_padding"
+                        android:text="@string/siang"
+                        android:textAllCaps="false"
+                        android:textColor="@color/text_purple_dark"
+                        android:textSize="@dimen/text_default" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_siang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:layout_marginRight="@dimen/default_padding"
+                    android:background="@drawable/bg_gradient_orange_horizontal"
+                    android:textSize="@dimen/text_small"
+                    android:textColor="@color/text_white"
+                    android:text="@string/btn_submit"/>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

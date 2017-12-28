@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Danamon" parent="Danamon.Base">
+
+    </style>
+
+    <style name="Danamon.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="Danamon.Login" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/text_black</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorControlNormal">@color/text_black</item>
+        <item name="colorControlActivated">@color/text_black</item>
+        <item name="colorControlHighlight">@color/text_black</item>
+    </style>
+
+    <item name="item_click_support" type="id" />
+
+    <style name="CardViewStyle" parent="android:Widget.TextView">
+        <item name="cardCornerRadius">@dimen/default_padding</item>
+        <item name="cardElevation">@dimen/medium_padding</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:background">@color/purple_gradient_dark</item>
+    </style>
+
+    <style name="pbTheme">
+        <item name="colorAccent">@color/light_orange_gradient_dark</item>
+        <item name="colorControlNormal">@color/light_orange_gradient_dark</item>
+        <item name="colorControlActivated">@color/light_orange_gradient_dark</item>
+        <item name="colorControlHighlight">@color/light_orange_gradient_dark</item>
+    </style>
+
+</resources>

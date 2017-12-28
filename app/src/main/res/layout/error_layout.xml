@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/v_error">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/default_padding"
+        android:orientation="vertical">
+
+        <!--<ImageView-->
+            <!--android:tint="@color/grey"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/image"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:src="@drawable/ic_logo_danamon"-->
+            <!--android:layout_marginBottom="@dimen/default_padding"/>-->
+
+        <TextView
+            android:id="@+id/tv_error_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_padding"
+            android:gravity="center"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_medium"/>
+
+        <TextView
+            android:id="@+id/tv_error_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_padding"
+            android:gravity="center"
+            android:textColor="@color/text_grey"
+            android:textSize="@dimen/text_default"/>
+
+    </LinearLayout>
+
+</FrameLayout>

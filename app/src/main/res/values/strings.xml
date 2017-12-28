@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Event Conference Apps</string>
+
+    <string name="damamon_sales_leader">Event Conference Apps</string>
+
+    <!--Text-->
+    <string name="invitation">Invitation</string>
+    <string name="register">Register</string>
+    <string name="agenda">Agenda</string>
+    <string name="help">Help</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="gallery">Gallery</string>
+    <string name="ayana_resort">Ayana Resort Facilities</string>
+    <string name="ayana_resort_desc">Ayana Residence Bali Apartment adalah akomodasi di lokasi yang baik, tepatnya berada di Jimbaran. Lokasi hotel sangat strategis karena hanya berjarak 5,21 km dengan Bandar Udara Internasional Ngurah Rai (DPS).</string>
+    <string name="top_rank">Top Rank</string>
+    <string name="description">Description</string>
+    <string name="song_lyric">SONG LYRICS</string>
+    <string name="maps">Maps</string>
+    <string name="kelas">Class</string>
+    <string name="topik">Topic</string>
+    <string name="grup_leader">Ketua</string>
+    <string name="member">Members</string>
+    <string name="siang">Siang</string>
+    <string name="pagi">Pagi</string>
+    <string name="ok">OK</string>
+    <string name="welcome">Welcome</string>
+    <string name="submit_desc">Silahkan pilih 2 kelas yang anda ingin ikuti.</string>
+    <string name="point_desc">Kumpulkan point lainnya di setiap Spot yang anda kunjungi.</string>
+
+    <!--Hint-->
+    <string name="hint_nip">NIP</string>
+    <string name="hint_no_id">NO ID</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_tgl_lahir">Tanggal Lahir</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_jabatan">Jabatan</string>
+    <string name="hint_lokasi">Lokasi</string>
+    <string name="hint_old_password">Old Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_re_password">Re-type Password</string>
+
+    <!--Button-->
+    <string name="btn_aktifkan">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_download_now">Download Now</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_scan">Scan QR Code</string>
+    <string name="btn_submit">SUBMIT</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_error">Tap to try again</string>
+
+    <!--Error-->
+    <string name="error_network_problem">No internet Access, please try again later</string>
+    <string name="error_data_problem">Cannot continue this process, please try again later</string>
+    <string name="error_data_empty">Data empty, please try again later</string>
+
+    <!--Notif-->
+    <string name="notifGPS">Silahkan aktifkan lokasi GPS Anda</string>
+    <string name="notification">Notification</string>
+
+    <array name="itemsSelectImage">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </array>
+</resources>

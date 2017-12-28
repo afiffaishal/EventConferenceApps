@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dinus.ec.main.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></include>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange_home"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/medium_padding"
+            android:paddingLeft="@dimen/default_padding"
+            android:paddingRight="@dimen/default_padding"
+            android:paddingTop="@dimen/medium_padding">
+
+            <TextView
+                android:id="@+id/tv_name"
+                fontPath="fonts/Pangram-Bold.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/medium_padding"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/text_large" />
+
+            <TextView
+                android:id="@+id/tv_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="200 point"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/text_medium" />
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_class"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_weight="1"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="left"-->
+            <!--android:maxLines="1"-->
+            <!--android:text="Class 1"-->
+            <!--android:textColor="@color/text_white"-->
+            <!--android:textSize="@dimen/text_medium" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_grup"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="center"-->
+            <!--android:maxLines="1"-->
+            <!--android:text="Grup a"-->
+            <!--android:textColor="@color/text_white"-->
+            <!--android:textSize="@dimen/text_medium" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_point"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_weight="1"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="right"-->
+            <!--android:maxLines="1"-->
+            <!--android:text="200 point"-->
+            <!--android:textColor="@color/text_white"-->
+            <!--android:textSize="@dimen/text_medium" />-->
+
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingBottom="@dimen/small_padding"
+            android:paddingTop="@dimen/small_padding">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/md_button_min_width"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_gradient_orange_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/default_padding">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/button_height"
+                android:layout_height="@dimen/button_height"
+                android:src="@drawable/ic_barcode_orange" />
+
+            <TextView
+                fontPath="fonts/Pangram-Bold.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/medium_padding"
+                android:text="@string/btn_scan"
+                android:textAllCaps="false"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/text_actionbar" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

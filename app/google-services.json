@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "41896330908",
+    "firebase_url": "https://danamon-178902.firebaseio.com",
+    "project_id": "danamon-178902",
+    "storage_bucket": "danamon-178902.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41896330908:android:bc9d1535f29fbd4c",
+        "android_client_info": {
+          "package_name": "com.crocodic.danamonslc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41896330908-iom3etie8d78c9bfujvstg4ndne77ffr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crocodic.danamonslc",
+            "certificate_hash": "315a3fe1141fc524535f98e60598fe3e2ebcc272"
+          }
+        },
+        {
+          "client_id": "41896330908-8ai73a51hhl1s9u147tg418hmf3mpv0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVUmdhccuZYc0qJPYb8M5CFjTE30oOnRs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41896330908-8ai73a51hhl1s9u147tg418hmf3mpv0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

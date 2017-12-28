@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/light_orange_gradient_light</color>
+    <color name="colorPrimaryDark">@color/light_orange_gradient_light</color>
+    <color name="colorAccent">@color/light_orange_gradient_dark</color>
+
+    <!--Color-->
+    <color name="white">#ffffff</color>
+    <color name="orange_home">#8F00FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#eaeaea</color>
+
+    <!--Text-->
+    <color name="text_white">@color/white</color>
+    <color name="text_grey">#798dab</color>
+    <color name="text_black">#3e3f40</color>
+    <color name="text_purple_dark">#eb860e</color>
+    <color name="text_purple">#eb860e</color>
+
+    <!--Gradient-->
+    <color name="light_orange_gradient_dark">#eb860e</color>
+    <color name="light_orange_gradient_light">#fac023</color>
+    <color name="dark_orange_gradient_dark">#ef9720</color>
+    <color name="dark_orange_gradient_light">#f9c93c</color>
+    <color name="purple_gradient_dark">#793ee5</color>
+
+</resources>
